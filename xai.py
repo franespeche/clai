@@ -115,6 +115,10 @@ if __name__ == "__main__":
     model = os.getenv("OPENROUTER_MODEL", "openai/gpt-4o")
     apikey = os.getenv("OPENROUTER_API_KEY", "")
 
+    if not apikey:
+        print("Error: OPENROUTER_API_KEY environment variable not set.")
+        sys.exit(1)
+
     if args.status:
         info = get_api_key_info(apikey)
         print(json.dumps(info, indent=2))
