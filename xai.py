@@ -84,8 +84,6 @@ def get_api_key_info(apikey):
     })
     return response.json()
 
-# print(json.dumps(response.json(), indent=2))
-
 # make a chat completion request
 def get_unix_command(description, apikey, model):
 
