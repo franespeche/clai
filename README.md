@@ -1,9 +1,4 @@
-██╗  ██╗  █████╗  ██╗
-╚██╗██╔╝ ██╔══██╗ ██║
- ╚███╔╝  ███████║ ██║
- ██╔██╗  ██╔══██║ ██║
-██╔╝ ██╗ ██║  ██║ ██║
-╚═╝  ╚═╝ ╚═╝  ╚═╝ ╚═╝
+# XAI
 Transform human instructions into UNIX commands.
 
 `xai` is a command-line tool that converts natural language instructions into executable UNIX commands.
