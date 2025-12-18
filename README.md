@@ -2,7 +2,7 @@
 Transform human instructions into UNIX commands.
 
 `clai` is a command-line tool that converts natural language instructions into executable UNIX commands.
-Example: `xai list all files in the current directory` → `ls -la` (printed to stdout and copied to clipboard)
+Example: `clai list all files in the current directory` → `ls -la` (printed to stdout and copied to clipboard)
 
 ## Usage
 
